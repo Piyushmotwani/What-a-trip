@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>New Trip</title>
+    <style>
+        nav{
+            text-align: center;
+            background-color: blueviolet;
+            height: 40px;
+            padding-top: 15px;
+            width: 100%;  
+        }
+        .Nav-ele{
+            padding: 28px;
+            color: white;
+            font-size: larger;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+        a{
+            text-decoration: none;
+        }
+        .input{
+            margin: 0;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+        .field{
+            line-height: 1.5;
+        }
+        form{
+            background-color: white;
+            width: 390px;
+            padding: 22px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 100px;
+            border: 1px solid #ccc;
+        }
+        #footer{
+            background-color: blueviolet;
+            padding: 10px;
+            color: white;
+            margin-top: 66px;
+        }
+    </style>
+</head>
+<body style="background-color: lightcyan;margin: 0;">
+    <nav>
+        <a 
+        href="/Travel.html"><span class="Nav-ele">Home</span></a>
+       <a href="/about.html"> <span class="Nav-ele">About</span></a>
+       <a href="/form.html"> <span class="Nav-ele">Contact</span></a>
+    </nav>
+    <form >
+        <h1>Wanna hava a next trip 🤩 </h1>
+        <div>
+           <p class="input">Name:</p> 
+            <br>
+            <input class="field" type="text" name="Name">
+        </div>
+        <br>
+        <div>
+            <p class="input">Email:</p>
+            <br>
+            <input class="field" type="email" name="email" id="">
+        </div>
+        <br>
+        <div>
+            <p class="input">Phone No.:</p>
+            
+            <br>
+            <input class="field" type="tel" name="num" >
+        </div>
+        <span style="margin-top: 20px;">
+            <br>
+            <input type="submit" value="Register">
+            <input type="reset" value="Reset" style="margin-left: 20px;">
+
+        </span>
+
+    </form>
+    <footer id="footer">
+        <p style="margin-left: 20px;">&copy; Copyright 2020</p>
+    </footer>
+</body>
+</html>
